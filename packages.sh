@@ -46,6 +46,9 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-them
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-theme-infinityfreedom
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-theme-netgearv2
 svn co https://github.com/rosywrt/luci-theme-rosy/trunk/luci-theme-rosy
+svn co https://github.com/Leo-Jo-My/luci-theme-argon-dark-mod/trunk ./
+svn co https://github.com/Leo-Jo-My/luci-theme-argon-mod/trunk ./
+svn co https://github.com/Leo-Jo-My/luci-theme-argon-light-mod/trunk ./
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/UnblockNeteaseMusic
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/UnblockNeteaseMusicGo
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/adbyby
