@@ -16,17 +16,13 @@ svn co https://github.com/jerrykuku/luci-app-jd-dailybonus/trunk ./luci-app-jd-d
 svn co https://github.com/jerrykuku/luci-theme-argon/branches/18.06 ./luci-theme-argon
 svn co https://github.com/jerrykuku/luci-app-vssr/trunk ./luci-app-vssr
 svn co https://github.com/tty228/luci-app-serverchan/trunk ./luci-app-serverchan
-svn co https://github.com/fw876/helloworld/trunk ./
-rm -rf .svn
-svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol ./
-rm -rf .svn
-svn co https://github.com/xiaorouji/openwrt-package/trunk/obsolete ./
-rm -rf .svn
-svn co https://github.com/xiaorouji/openwrt-package/trunk/others ./
-rm -rf .svn
-svn co https://github.com/xiaorouji/openwrt-package/trunk/package ./
-rm -rf .svn
+svn co https://github.com/fw876/helloworld/trunk/ ./helloworld
+svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/ ./lienol
+svn co https://github.com/xiaorouji/openwrt-package/trunk/obsolete/ ./obsolete
+svn co https://github.com/xiaorouji/openwrt-package/trunk/others/ ./others
+svn co https://github.com/xiaorouji/openwrt-package/trunk/package/ ./small
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-smartdns
+svn co https://github.com/kenzok8/openwrt-packages/trunk/passwall
 svn co https://github.com/kenzok8/openwrt-packages/trunk/smartdns
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-argon_new
 svn co https://github.com/kenzok8/luci-theme-ifit/trunk/luci-theme-ifit
